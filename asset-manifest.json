@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/foodstats/static/css/main.15671cd3.css",
+    "main.js": "/foodstats/static/js/main.22c147df.js",
+    "index.html": "/foodstats/index.html",
+    "main.15671cd3.css.map": "/foodstats/static/css/main.15671cd3.css.map",
+    "main.22c147df.js.map": "/foodstats/static/js/main.22c147df.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15671cd3.css",
+    "static/js/main.22c147df.js"
+  ]
+}

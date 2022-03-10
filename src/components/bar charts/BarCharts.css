@@ -1,0 +1,31 @@
+.chart-container {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  text-align: center;
+  transform: translateY(5vh) scale(0.8);
+}
+.calories-label {
+  font-size: 40px;
+  color: #535353;
+}
+.label {
+}
+@media only screen and (max-width: 540px) {
+  .chart-container {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    text-align: center;
+    transform: translateY(5vh) scale(0.6);
+  }
+}
+@media only screen and (max-width: 375px) {
+  .chart-container {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    text-align: center;
+    transform: translateY(5vh) scale(0.5);
+  }
+}

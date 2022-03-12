@@ -20,7 +20,7 @@ const StyledButton = styled("button")`
   resize: none;
   outline: none;
   min-width: 80px;
-  background: #f5f4f4l;
+  background: rgba(245, 244, 244, 255);
 
   border-radius: 10px;
   margin-right: 15px;

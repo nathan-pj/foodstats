@@ -3,6 +3,7 @@
   align-items: center;
   text-align: center;
   transform: translateY(300px);
+
   display: flex;
 }
 .search-bar__searched {
@@ -23,7 +24,7 @@
   border-radius: 10px;
   text-align: center;
   font-size: 20px;
-  background-color: rgb(245, 244, 244);
+  background-color: rgba(245, 244, 244, 255);
   border-color: bisque;
   border-style: inherit;
 
@@ -44,7 +45,7 @@
   border-radius: 10px;
   text-align: center;
   font-size: 20px;
-  background-color: rgb(245, 244, 244);
+  background-color: rgba(245, 244, 244, 255);
 
   border-style: inherit;
 
@@ -76,6 +77,7 @@
 .units {
   margin-right: 30px;
   width: 50px;
+
   display: inline-block;
 }
 .unit-option {

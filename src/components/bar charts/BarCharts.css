@@ -9,6 +9,9 @@
   font-size: 40px;
   color: #535353;
 }
+
+.bar-labels {
+}
 .label {
 }
 @media only screen and (max-width: 540px) {

@@ -1,0 +1,26 @@
+.logo {
+  height: 15vh;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  top: 4rem;
+}
+.about-text {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  position: relative;
+  top: 18rem;
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  color: rgb(63, 63, 63);
+}
+.mini-burger {
+  filter: invert(56%) sepia(82%) saturate(376%) hue-rotate(1deg) brightness(83%)
+    contrast(90%);
+  transform: scale(1.1) skew(2deg);
+  margin-top: 5px;
+  -webkit-transform: scale(1.1) skew(2deg);
+  -moz-transform: scale(1.1) skew(2deg);
+}

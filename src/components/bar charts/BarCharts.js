@@ -33,15 +33,15 @@ export default function BarCharts({
 
       amount:
         responseData.totalNutrients.PROCNT.quantity.toFixed(1) +
-        responseData.totalNutrients.CHOCDF.unit,
+        responseData.totalNutrients.PROCNT.unit,
 
       percent: responseData.totalDaily.PROCNT.quantity.toFixed(2),
     },
     {
       name: "Fat",
       amount:
-        responseData.totalNutrients.CHOCDF.quantity.toFixed(1) +
-        responseData.totalNutrients.CHOCDF.unit,
+        responseData.totalNutrients.FAT.quantity.toFixed(1) +
+        responseData.totalNutrients.FAT.unit,
 
       percent: responseData.totalDaily.FAT.quantity.toFixed(2),
     },
@@ -62,7 +62,7 @@ export default function BarCharts({
         x={x + width - offset}
         y={y + height - 5}
         fill={fireOffset ? "#285A64" : "black"}
-        fontSize={"17"}
+        fontSize={"20"}
         textAnchor="end"
       >
         {value}
@@ -86,6 +86,7 @@ export default function BarCharts({
           bottom: 5,
         }}
         barSize={60}
+        className="bar-labels"
       >
         <XAxis
           dataKey="name"
@@ -115,6 +116,7 @@ export default function BarCharts({
           position="top"
           fill="#8884d8"
           background={{ fill: "#eee" }}
+          className="bar-labels"
         >
           <LabelList
             dataKey="amount"
@@ -125,6 +127,7 @@ export default function BarCharts({
           />
         </Bar>
       </BarChart>
+      <p>RDI% is the recommended daily intake based on a 2000 calorie diet.</p>
     </div>
   );
 }

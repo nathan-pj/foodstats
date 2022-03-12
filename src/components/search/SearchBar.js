@@ -6,6 +6,7 @@ import BarCharts from "../bar charts/BarCharts.js";
 import Loading from "../loading/Loading";
 import ServingUnits from "./ServingUnits";
 import InvalidFood from "../invalid food/InvalidFood";
+import DisplayLogoAndAbout from "../Logo/DisplayLogoAndAbout";
 
 export default function SearchBar() {
   const [input, setInput] = useState("");
@@ -91,7 +92,9 @@ export default function SearchBar() {
           </button>
         </form>
       </div>
-      {loaded === "initial" ? null : loaded === "loading" ? (
+      {loaded === "initial" ? (
+        <DisplayLogoAndAbout />
+      ) : loaded === "loading" ? (
         <Loading />
       ) : responseData.totalWeight === 0 && responseData.calories === 0 ? (
         <InvalidFood newSearch={newSearch} />

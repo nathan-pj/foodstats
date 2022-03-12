@@ -1,4 +1,5 @@
-I made this app to help anymore easily track calories and
-macronutrients.
+I made this app with React to help anymore easily track calories and macronutrients.
 
-Visit https://nathan-pj.github.io/foodstats/ to use.
+The API this uses is by https://www.edamam.com/.
+
+Visit https://nathan-pj.github.io/foodstats/ to use this app.

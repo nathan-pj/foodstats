@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/foodstats/static/css/main.cea5530e.css",
-    "main.js": "/foodstats/static/js/main.cf6dd857.js",
+    "main.js": "/foodstats/static/js/main.c440ffa3.js",
     "static/media/foodstats.jpg": "/foodstats/static/media/foodstats.d9a60609ec42938fe849.jpg",
     "index.html": "/foodstats/index.html",
     "main.cea5530e.css.map": "/foodstats/static/css/main.cea5530e.css.map",
-    "main.cf6dd857.js.map": "/foodstats/static/js/main.cf6dd857.js.map"
+    "main.c440ffa3.js.map": "/foodstats/static/js/main.c440ffa3.js.map"
   },
   "entrypoints": [
     "static/css/main.cea5530e.css",
-    "static/js/main.cf6dd857.js"
+    "static/js/main.c440ffa3.js"
   ]
 }

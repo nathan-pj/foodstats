@@ -8,7 +8,7 @@ export default function DisplayLogoAndAbout() {
       </div>
       <div className="about-text">
         <p>
-          I made this app to help anymore easily track calories and
+          I made this app to help anyone easily track calories and
           macronutrients.
         </p>
         <p>
